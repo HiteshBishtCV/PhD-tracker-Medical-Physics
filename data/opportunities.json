@@ -1,0 +1,90 @@
+[
+  {
+    "id": "stanford-medphys-2025-1",
+    "title": "PhD Position in Medical Physics - Radiation Oncology",
+    "institute": "Stanford University",
+    "deadline": "2025-08-15",
+    "link": "https://med.stanford.edu/radoncphysics/education/graduate-program.html",
+    "description": "Research opportunities in advanced radiation therapy techniques, stereotactic radiosurgery, and treatment planning optimization. The successful candidate will work on developing novel approaches to dose delivery and verification.",
+    "source": "University Website",
+    "dateAdded": "2025-06-20",
+    "scrapedAt": "2025-06-23T10:30:00Z"
+  },
+  {
+    "id": "mayo-imaging-2025-1",
+    "title": "Graduate Research Position - Medical Imaging Physics",
+    "institute": "Mayo Clinic",
+    "deadline": "2025-09-01",
+    "link": "https://www.mayo.edu/research/departments-divisions/radiology/medical-physics",
+    "description": "PhD opportunity in diagnostic imaging physics with focus on CT, MRI, and nuclear medicine. Research involves developing new imaging protocols and radiation dose optimization techniques.",
+    "source": "Direct Application",
+    "dateAdded": "2025-06-21",
+    "scrapedAt": "2025-06-23T10:35:00Z"
+  },
+  {
+    "id": "johns-hopkins-nuclear-2025-1",
+    "title": "PhD Opportunity in Nuclear Medicine Physics",
+    "institute": "Johns Hopkins University",
+    "deadline": "2025-07-30",
+    "link": "https://www.hopkinsmedicine.org/radiology/education/phd-program",
+    "description": "Research position focusing on molecular imaging, radiopharmaceutical development, and theranostics. Work involves PET/SPECT imaging optimization and novel tracer development.",
+    "source": "Academic Job Board",
+    "dateAdded": "2025-06-22",
+    "scrapedAt": "2025-06-23T10:40:00Z"
+  },
+  {
+    "id": "md-anderson-proton-2025-1",
+    "title": "Medical Physics PhD - Proton Therapy Research",
+    "institute": "MD Anderson Cancer Center",
+    "deadline": "2025-08-20",
+    "link": "https://www.mdanderson.org/education-training/graduate-school/programs-of-study/physics.html",
+    "description": "Advanced research in proton beam therapy, treatment planning, and Monte Carlo simulations. Focus on pediatric applications and FLASH radiotherapy techniques.",
+    "source": "LinkedIn",
+    "dateAdded": "2025-06-23",
+    "scrapedAt": "2025-06-23T10:45:00Z"
+  },
+  {
+    "id": "wisc-madison-dosimetry-2025-1",
+    "title": "PhD in Medical Physics - Radiation Dosimetry",
+    "institute": "University of Wisconsin-Madison",
+    "deadline": "2025-09-15",
+    "link": "https://www.medphysics.wisc.edu/graduate-program/",
+    "description": "Research opportunities in clinical dosimetry, small field dosimetry, and MR-guided radiotherapy. Program includes clinical rotations and comprehensive training.",
+    "source": "University Website",
+    "dateAdded": "2025-06-23",
+    "scrapedAt": "2025-06-23T10:50:00Z"
+  },
+  {
+    "id": "duke-adaptive-2025-1",
+    "title": "Graduate Position - Adaptive Radiotherapy",
+    "institute": "Duke University",
+    "deadline": "2025-08-31",
+    "link": "https://medicalphysics.duke.edu/education/graduate-training",
+    "description": "PhD research in adaptive radiotherapy, real-time imaging, and AI-guided treatment planning. Collaborative work with machine learning and computer vision groups.",
+    "source": "Nature Jobs",
+    "dateAdded": "2025-06-22",
+    "scrapedAt": "2025-06-23T10:55:00Z"
+  },
+  {
+    "id": "upenn-brachytherapy-2025-1",
+    "title": "PhD Opportunity in Brachytherapy Physics",
+    "institute": "University of Pennsylvania",
+    "deadline": "2025-07-15",
+    "link": "https://www.med.upenn.edu/radoncphysics/graduate-program.html",
+    "description": "Research in high-dose-rate and low-dose-rate brachytherapy, source calibration, and treatment planning. Focus on gynecologic and prostate applications.",
+    "source": "Academic Job Board",
+    "dateAdded": "2025-06-21",
+    "scrapedAt": "2025-06-23T11:00:00Z"
+  },
+  {
+    "id": "mgh-mri-guided-2025-1",
+    "title": "Medical Physics PhD - MRI-Guided Therapy",
+    "institute": "Massachusetts General Hospital",
+    "deadline": "2025-09-10",
+    "link": "https://www.massgeneral.org/radiation-oncology/education/graduate-program",
+    "description": "Cutting-edge research in MRI-guided radiotherapy, real-time motion tracking, and adaptive treatment delivery. Access to state-of-the-art MRLinac systems.",
+    "source": "Direct Application",
+    "dateAdded": "2025-06-20",
+    "scrapedAt": "2025-06-23T11:05:00Z"
+  }
+]

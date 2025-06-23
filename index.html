@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhD Medical Physics Opportunities</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-graduation-cap"></i> PhD Medical Physics Opportunities</h1>
+            <div class="header-controls">
+                <button id="theme-toggle" class="btn-icon" title="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="refresh-btn" class="btn-primary">
+                    <i class="fas fa-sync-alt"></i> Refresh
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="stat-card">
+                <div class="stat-number" id="total-opportunities">0</div>
+                <div class="stat-label">Total Opportunities</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="new-today">0</div>
+                <div class="stat-label">New Today</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="expiring-soon">0</div>
+                <div class="stat-label">Expiring Soon</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="last-updated">Never</div>
+                <div class="stat-label">Last Updated</div>
+            </div>
+        </section>
+
+        <!-- Controls Section -->
+        <section class="controls-section">
+            <div class="search-filters">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-input" placeholder="Search opportunities...">
+                </div>
+                <div class="filter-group">
+                    <select id="institute-filter">
+                        <option value="">All Institutes</option>
+                    </select>
+                    <select id="source-filter">
+                        <option value="">All Sources</option>
+                    </select>
+                    <input type="date" id="deadline-filter" title="Filter by deadline">
+                </div>
+                <div class="action-buttons">
+                    <button id="export-csv" class="btn-secondary">
+                        <i class="fas fa-download"></i> Export CSV
+                    </button>
+                    <button id="add-source" class="btn-primary">
+                        <i class="fas fa-plus"></i> Add Source
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Opportunities Table -->
+        <section class="table-section">
+            <div class="table-container">
+                <table id="opportunities-table">
+                    <thead>
+                        <tr>
+                            <th data-sort="title">
+                                Topic <i class="fas fa-sort"></i>
+                            </th>
+                            <th data-sort="institute">
+                                Institute <i class="fas fa-sort"></i>
+                            </th>
+                            <th data-sort="deadline">
+                                Deadline <i class="fas fa-sort"></i>
+                            </th>
+                            <th data-sort="source">
+                                Source <i class="fas fa-sort"></i>
+                            </th>
+                            <th data-sort="dateAdded">
+                                Date Added <i class="fas fa-sort"></i>
+                            </th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="opportunities-tbody">
+                        <!-- Data will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            <div id="loading-indicator" class="loading">
+                <i class="fas fa-spinner fa-spin"></i> Loading opportunities...
+            </div>
+            <div id="no-results" class="no-results" style="display: none;">
+                <i class="fas fa-search"></i>
+                <p>No opportunities found matching your criteria.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Add Source Modal -->
+    <div id="add-source-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Add New Source</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <form id="add-source-form">
+                <div class="form-group">
+                    <label for="source-url">Website URL *</label>
+                    <input type="url" id="source-url" required placeholder="https://example.com/careers">
+                </div>
+                <div class="form-group">
+                    <label for="source-name">Institution Name *</label>
+                    <input type="text" id="source-name" required placeholder="University Name">
+                </div>
+                <div class="form-group">
+                    <label for="source-selectors">Custom CSS Selectors (Optional)</label>
+                    <textarea id="source-selectors" placeholder="job-title: .job-title&#10;deadline: .deadline&#10;link: .apply-link"></textarea>
+                    <small>Format: field: css-selector (one per line)</small>
+                </div>
+                <div class="form-actions">
+                    <button type="button" id="test-source" class="btn-secondary">Test Scraping</button>
+                    <button type="submit" class="btn-primary">Add Source</button>
+                </div>
+            </form>
+            <div id="test-results" class="test-results" style="display: none;"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 PhD Medical Physics Opportunities Tracker | 
+            <a href="https://github.com/your-username/phd-opportunities" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a></p>
+            <p><small>Data scraped from public sources. Please verify all information with original sources.</small></p>
+        </div>
+    </footer>
+
+    <script src="js/data-handler.js"></script>
+    <script src="js/scraper-manager.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

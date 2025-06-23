@@ -1,0 +1,184 @@
+[
+  {
+    "id": "nature-jobs",
+    "name": "Nature Jobs",
+    "url": "https://www.nature.com/naturecareers/jobs/search?keywords=medical+physics+phd",
+    "type": "academic",
+    "active": true,
+    "selectors": {
+      "container": ".job-listing",
+      "title": ".job-title a",
+      "institute": ".job-location",
+      "deadline": ".job-deadline",
+      "link": ".job-title a",
+      "description": ".job-description"
+    },
+    "requires_js": false,
+    "last_scraped": null,
+    "success_count": 0,
+    "error_count": 0,
+    "added_date": "2025-06-23"
+  },
+  {
+    "id": "ieee-jobs",
+    "name": "IEEE Job Site",
+    "url": "https://jobs.ieee.org/jobs/physics",
+    "type": "technical",
+    "active": true,
+    "selectors": {
+      "container": ".job-item",
+      "title": ".job-title",
+      "institute": ".company-name",
+      "deadline": ".deadline-date",
+      "link": ".job-title a",
+      "description": ".job-summary"
+    },
+    "requires_js": true,
+    "last_scraped": null,
+    "success_count": 0,
+    "error_count": 0,
+    "added_date": "2025-06-23"
+  },
+  {
+    "id": "physics-today-jobs",
+    "name": "Physics Today Jobs",
+    "url": "https://physicstoday.scitation.org/jobs",
+    "type": "academic",
+    "active": true,
+    "selectors": {
+      "container": ".job-posting",
+      "title": ".position-title",
+      "institute": ".employer-name",
+      "deadline": ".application-deadline",
+      "link": ".position-title a",
+      "description": ".position-description"
+    },
+    "requires_js": false,
+    "last_scraped": null,
+    "success_count": 0,
+    "error_count": 0,
+    "added_date": "2025-06-23"
+  },
+  {
+    "id": "aapm-careers",
+    "name": "AAPM Career Center",
+    "url": "https://www.aapm.org/careers/",
+    "type": "professional",
+    "active": true,
+    "selectors": {
+      "container": ".career-listing",
+      "title": ".career-title",
+      "institute": ".institution",
+      "deadline": ".deadline",
+      "link": ".career-title a",
+      "description": ".career-description"
+    },
+    "requires_js": false,
+    "last_scraped": null,
+    "success_count": 0,
+    "error_count": 0,
+    "added_date": "2025-06-23"
+  },
+  {
+    "id": "science-careers",
+    "name": "Science Careers",
+    "url": "https://jobs.sciencecareers.org/jobs/physics/medical-physics",
+    "type": "academic",
+    "active": true,
+    "selectors": {
+      "container": ".job-result",
+      "title": ".job-title a",
+      "institute": ".job-employer",
+      "deadline": ".job-deadline",
+      "link": ".job-title a",
+      "description": ".job-description"
+    },
+    "requires_js": true,
+    "last_scraped": null,
+    "success_count": 0,
+    "error_count": 0,
+    "added_date": "2025-06-23"
+  },
+  {
+    "id": "academic-jobs-online",
+    "name": "Academic Jobs Online",
+    "url": "https://academicjobsonline.org/ajo/jobs?keyword=medical+physics",
+    "type": "academic",
+    "active": true,
+    "selectors": {
+      "container": ".job-row",
+      "title": ".job-title",
+      "institute": ".institution",
+      "deadline": ".deadline",
+      "link": ".job-title a",
+      "description": ".job-details"
+    },
+    "requires_js": false,
+    "last_scraped": null,
+    "success_count": 0,
+    "error_count": 0,
+    "added_date": "2025-06-23"
+  },
+  {
+    "id": "linkedin-jobs",
+    "name": "LinkedIn Jobs",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=medical%20physics%20phd",
+    "type": "professional",
+    "active": false,
+    "note": "Disabled due to anti-scraping measures",
+    "selectors": {
+      "container": ".job-search-card",
+      "title": ".base-search-card__title",
+      "institute": ".base-search-card__subtitle",
+      "deadline": ".job-search-card__listdate",
+      "link": ".base-card__full-link",
+      "description": ".job-search-card__description"
+    },
+    "requires_js": true,
+    "last_scraped": null,
+    "success_count": 0,
+    "error_count": 0,
+    "added_date": "2025-06-23"
+  },
+  {
+    "id": "indeed-academic",
+    "name": "Indeed Academic Jobs",
+    "url": "https://www.indeed.com/jobs?q=medical+physics+phd&l=",
+    "type": "general",
+    "active": true,
+    "selectors": {
+      "container": "[data-jk]",
+      "title": "[data-testid='job-title']",
+      "institute": "[data-testid='company-name']",
+      "deadline": ".date",
+      "link": "[data-testid='job-title'] a",
+      "description": "[data-testid='job-snippet']"
+    },
+    "requires_js": true,
+    "last_scraped": null,
+    "success_count": 0,
+    "error_count": 0,
+    "added_date": "2025-06-23"
+  },
+  {
+    "id": "nsf-grfp",
+    "name": "NSF Graduate Research Fellowship",
+    "url": "https://www.nsfgrfp.org/",
+    "type": "funding",
+    "active": true,
+    "note": "Fellowship opportunities for graduate study",
+    "selectors": {
+      "container": ".fellowship-listing",
+      "title": ".fellowship-title",
+      "institute": ".sponsor",
+      "deadline": ".deadline-date",
+      "link": ".fellowship-link",
+      "description": ".fellowship-description"
+    },
+    "requires_js": false,
+    "last_scraped": null,
+    "success_count": 0,
+    "error_count": 0,
+    "added_date": "2025-06-23"
+  }
+]
